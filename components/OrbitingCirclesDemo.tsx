@@ -35,7 +35,7 @@ export function OrbitingCirclesDemo() {
 							className='relative overflow-hidden block text-center grow p-0 text-indigo-300'
 							data-hover="Let's get in touch"
 						>
-							<span className='block'>Let's get in touch</span>
+							<span className='block'>Let&apos;s get in touch</span>
 						</li>
 					</HoverBorderGradient>
 				</Link>
