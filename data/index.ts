@@ -56,7 +56,7 @@ export const projects = [
 		des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
 		img: '/p2.png',
 		iconLists: ['/next.svg', '/re.svg', '/ts.svg', '/tail.svg', '/scss.svg'],
-		link: '/ui.yoom.com',
+		link: 'https://theme-switcher-smoky.vercel.app/',
 	},
 	{
 		id: 3,
