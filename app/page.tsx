@@ -3,7 +3,7 @@ import Clients from '@/components/Clients'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import RecentProjects from '@/components/RecentProjects'
-import { BackgroundBeams } from '@/components/ui/BackgroundBeams'    
+import { BackgroundBeams } from '@/components/BackgroundBeams'    
 import { FloatingNav } from '@/components/ui/FloatingNav'
 
 export default function Home() {
