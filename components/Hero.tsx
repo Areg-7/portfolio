@@ -2,6 +2,7 @@ import { FaDownload } from 'react-icons/fa6'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import Title from './ui/BubbleText'
 
 export default function Hero() {
 	return (
@@ -22,9 +23,10 @@ export default function Hero() {
 				<div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
 					<TextGenerateEffect
 						words="Hi! I'm Areg, a "
-						title='Next.js Developer based in Armenia'
+						// title='Next.js Developer based in Armenia'
 						className='text-center text-[40px] md:text-5xl lg:text-6xl font-palanquin'
 					/>
+					<Title title='Next.js Developer based in Armenia' />
 
 					<MagicButton
 						title='DOWNLOAD CV'

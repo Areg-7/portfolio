@@ -2,15 +2,15 @@
 import { cn } from '@/utils/cn'
 import { motion, stagger, useAnimate } from 'framer-motion'
 import { useEffect } from 'react'
-import Title from './BubbleText'
+// import Title from './BubbleText'
 
 export const TextGenerateEffect = ({
 	words,
-	title,
+	// title,
 	className,
 }: {
 	words: string
-	title: string
+	// title: string
 	className?: string
 }) => {
 	const [scope, animate] = useAnimate()
@@ -53,7 +53,7 @@ export const TextGenerateEffect = ({
 			<div className='my-4'>
 				<div className=' dark:text-white text-black leading-snug tracking-wide'>
 					{renderWords()}
-					<Title title={title} />
+					{/* <Title title={title} /> */}
 				</div>
 			</div>
 		</div>
