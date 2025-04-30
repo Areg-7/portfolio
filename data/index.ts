@@ -44,11 +44,11 @@ export const mySkills = [
 export const projects = [
 	{
 		id: 1,
-		title: 'Tour agency',
-		des: 'Web Platform for Travel Agency — Simple-to-use website for travel agents. Book hotels and air tickets in one place',
+		title: 'English flashcards',
+		des: 'The English Flashcards App is a user-friendly tool designed to help learners build and enhance their English vocabulary in an efficient and engaging way',
 		img: '/p1.png',
-		iconLists: ['/php.svg', '/js.svg', '/mysql.svg', '/scss.svg', '/html.svg'],
-		link: 'http://aregtour.rf.gd/',
+		iconLists: ['/next.svg', '/js.svg', '/re.svg', '/scss.svg', '/tail.svg'],
+		link: 'https://flashcards-pi-five.vercel.app/',
 	},
 	{
 		id: 2,
@@ -64,7 +64,7 @@ export const projects = [
 		des: 'Kanban is a visual system used to manage and keep track of work as it moves through a process.',
 		img: '/p3.png',
 		iconLists: ['/next.svg', '/re.svg', '/ts.svg', '/tail.svg', '/scss.svg'],
-		link: 'https://kanban-two-puce.vercel.app/',
+		link: 'https://kanban-3mcw.vercel.app/',
 	},
 	{
 		id: 4,
